@@ -27,3 +27,7 @@
 4. Вивід результату у консоль за ддопомогою методу `printWords()`.
 
 ## Відео роботи програми
+
+
+https://github.com/user-attachments/assets/de9d941b-9781-4a20-a2fd-d1db4bd58e66
+

@@ -10,7 +10,7 @@ public class TextProcessor {
     }
 
     public String[] getUniqueWordsSorted() {
-        String[] words = this.text.split("[.,\\sі—]+");
+        String[] words = this.text.split("[.,—;!\\sі]+");
         Arrays.sort(words, String.CASE_INSENSITIVE_ORDER);
 
         String[] temp = new String[words.length];
@@ -28,5 +28,4 @@ public class TextProcessor {
             System.out.println(word);
         }
     }
-
 }
